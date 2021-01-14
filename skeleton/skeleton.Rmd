@@ -1,0 +1,33 @@
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - first_name: Rotem
+    last_name: Hadar 
+    url: https://github.com/baobabprince
+    affiliation: Sheba Medical Center
+    orcid_id: 0000-0002-5247-3382
+date: "`r Sys.Date()`"
+output:
+   distill::distill_article:
+    code_folding: "show"
+    toc: yes
+    toc_depth: 6
+---
+
+## Prepare the environment
+
+
+```{r}
+library(tidyverse)
+library(magrittr)
+```
+
+
+
+## Import The data
+
+```{r}
+1+1
+```
